@@ -72,8 +72,8 @@ body {
     width: 5em;
     height: 5em;
     border-radius: 50%;
-    background: #000;
-    background: linear-gradient(to right, #000 10%, rgba(0, 0, 0, 0) 42%);
+    background: #6e6e6e;
+    background: linear-gradient(to right, #6e6e6e 10%, rgba(110, 110, 110, 0) 42%);
     position: relative;
     animation: load3 1.4s infinite linear;
     transform: translateZ(0);
@@ -82,7 +82,7 @@ body {
   .loader:before {
     width: 50%;
     height: 50%;
-    background: #000;
+    background: #6e6e6e;
     border-radius: 100% 0 0 0;
     position: absolute;
     top: 0;
