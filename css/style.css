@@ -596,7 +596,7 @@ td {
         background-color: rgba(255, 255, 255, 0.5);
         backdrop-filter: blur(4px);
       }
-      .menu__item{
+      .menu_item{
         width: 100%;
         height: auto;
         margin: 12px 0;

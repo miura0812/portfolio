@@ -5,7 +5,6 @@ $(function(){
     $('.loader-bg').delay(900).fadeOut(800);
 });
 
-  
   setTimeout(function(){
     $('.loader-bg').fadeOut(600);
   },5000);
@@ -22,7 +21,7 @@ btn.addEventListener('click', function(){
 
 
 
-$('.menu__item a').on('click', function() {
+$('.menu_item a').on('click', function() {
   $('.menu').removeClass('is-active');
   $(btn).removeClass('close');
 });
