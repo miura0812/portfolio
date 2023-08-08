@@ -153,6 +153,7 @@ body {
 .header-nav li a{
     color: #000;
     display: block;
+    margin-top: 20px;
 }
 
 .header-nav li:hover {
@@ -165,6 +166,9 @@ body {
     color: #fff;
 } 
 
+nav button {
+    display: none;
+}
 
 
 .header-img {
@@ -527,6 +531,9 @@ td {
 
   @media screen and (max-width:960px){
     
+    nav button {
+        display: block;
+    }
 
     /* ハンバーガーメニュー */
 
